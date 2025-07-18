@@ -1,0 +1,32 @@
+Dataset,Modality,Size,License,Link,Description / Use,,
+DIOR,Drone / Aerial Image,"23,463 images, 192,472 objects",CC‑BY‑4.0,"https://arxiv.org/pdf/1909.00133
+ https://ieee-dataport.org/documents/dior#files",Optical aerial object detection (20 classes),,
+VEDAI,Drone / Aerial Image,"~3,640 images, multi‑res (512/1024)",CC‑BY‑4.0,"https://paperswithcode.com/dataset/vedai
+ https://downloads.greyc.fr/vedai/",Vehicle detection in varied environments.,,
+VHR‑10,Drone / Aerial Image,"800 images, 10 classes",MIT,https://github.com/chaozhong2010/VHR-10_dataset_coco,High-res remote sensing detection; baseline for aerial object recognition models.,,
+EAGLE,Drone / Aerial Image,~216k objects across many images,???,https://www.dlr.de/en/eoc/about-us/remote-sensing-technology-institute/photogrammetry-and-image-analysis/public-datasets/eagle,Oriented vehicle detection with rotation-aware Bboxes,,
+xView,Drone / ISR Imagery,"~1,400 images with 1M+ objects",CC BY 4.0,http://xviewdataset.org/,"Bounding box labels, 60 classes (Size approx. 2-5GB, Manageable)",High,
+DOTA,Drone / ISR Imagery,~20k×20k px images,Unknown,http://captain.whu.edu.cn/DOTAweb/index.html,"Rotated bounding boxes, 18 classes (Size approx. 5-10GB, Higher Resolution)",Medium,
+VisDrone,Drone / ISR Imagery,"~10,000 images & videos",Free for research,http://www.aiskyeye.com/,"Drone-captured images and videos (Size approx. 5-15GB, Video)",Medium,".jpg images, .mp4 videos, .txt annotations; easy, common formats"
+UAVid,Drone / Semantic Segmentation,300 densely labeled (4K) frames,Public domain according to that kagle,"https://arxiv.org/abs/1810.10438
+ https://www.kaggle.com/datasets/awsaf49/uavid-semantic-segmentation-dataset",Semantic segmentation (8 classes) in urban UAV imagery; supports scene parsing and temporal model training.,,
+SSDD,SAR Imagery (Ship detection),Several hundred SAR chips (~1k ships),Apache‑2.0,"https://www.researchgate.net/publication/354620597_SAR_Ship_Detection_Dataset_SSDD_Official_Release_and_Comprehensive_Data_Analysis
+ https://github.com/TianwenZhang0825/Official-SSDD",SAR-based ship detection.,,
+SARDet‑100K,SAR Imagery (Object detection),"116,598 images, 245,653 instances",CC‑BY‑4.0,"https://arxiv.org/pdf/2403.06534
+ https://github.com/zcablii/SARDet_100K",Large-scale SAR object detection (6 classes).,,
+OpenSARUrban,SAR Imagery (Urban segmentation),"33,358 patches (100×100 px)",CC‑BY‑NC‑ND‑4.0?,"https://www.researchgate.net/publication/338466033_OpenSARUrban_A_Sentinel-1_SAR_Image_Dataset_for_Urban_Interpretation
+ 
+ https://opensar.sjtu.edu.cn/",Urban land-use classification; semantic segmentation in SAR urban contexts.,,
+OpenSARShip,SAR / Aerial Imagery,"34,528 chips",Open Access,https://zenodo.org/record/3402345,"Sentinel-1 ship radar data, AIS labels (Size approx. 1-3GB, Manageable)",High,".png/.tif images with .csv labels; straightforward, simple"
+MSTAR,SAR / Aerial Imagery,Unknown,Restricted,http://www.sdms.afrl.af.mil/index.php?collection=mstar,"Military SAR imagery, widely used (Size approx. Unknown)",Low,
+CARRADA,2D Automotive Radar + Camera,~5.2 years data; moderate size,GPL-3.0,"https://arxiv.org/abs/2005.01456
+ https://github.com/valeoai/carrada_dataset",Radar semantic segmentation; good for vision-radar fusion networks (multimodal with standard vision and radar input combined) and radar-only models.,,
+RadarScenes,Radar point clouds + video,4.3 hours recording,CC BY-NC-SA 4.0,"https://arxiv.org/abs/2104.02493
+ https://www.kaggle.com/datasets/aleksandrdubrovin/the-radarscenes-data-set",Radar detection and tracking of moving road users; useful for cluster-based radar tasks.,,
+nuScenes,Automotive Radar,"1,000 driving scenes (20s each)",Commercial use allowed for research,https://www.nuscenes.org/,"Multi-sensor dataset including radar (Size approx. 10-20GB, Radar, Lidar, Video)",Medium,
+Oxford Radar RobotCar Dataset,Automotive Radar,~280 km driving data,Open Access,https://robotcar-dataset.robots.ox.ac.uk/,"Radar and LiDAR data in urban environments (Size approx. 20+GB, Large dataset)",Low,".raw .bin radar, .pcd lidar, .png images; moderate complexity, needs special libs"
+Panoradio HF,RF Waveform (IQ signals),~173k samples (~5 GB),??,"https://arxiv.org/abs/1906.04459
+ https://panoradio-sdr.de/radio-signal-classification-dataset/",HF signal modulation/mode classification.,,
+TorchSig Toolkit,Synthetic RF Waveforms,5.3M samples (~340 GB),"BSD license, specifics can be seen on docs",https://github.com/torchdsp/torchsig,"Datasets, pretrained models, and other tools",,
+DeepSig RF Signal Datasets,RF Signals / Waveforms,"Varies, typically small files",Open Access,https://deepsig.io/datasets/,Various radio waveforms and modulation types (Size approx. Very small),High,".mat/.npy signal files, .csv labels; moderate, requires MATLAB or Python libs"
+RadioML2016.10a,RF Signals / Waveforms,~220k samples,Open Access,https://www.deepsig.io/datasets/,Modulation classification dataset (Size approx. Small),High,".mat/.npy signal files, .csv labels; moderate, requires MATLAB or Python libs"
